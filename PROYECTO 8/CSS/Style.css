@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #181818;
+}
+div{
+    display: flex;
+    
+}
+.principal{
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 50px;
+}
+header{
+    background: url("../IMG/banner.jpg");
+ 
+    background-size: cover;
+    background-position: center;
+
+}
+
+header h1{
+    font-size: 2.5em;
+    font-weight: normal;
+    color: black;
+
+}
+
+#logo header h1{
+    margin-bottom: 0px;
+    display: inline-block;
+
+}
+
+nav{
+    display: block;
+    width: 750px;
+    text-align: right;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+nav ul{
+    list-style-type: none;
+    color: white
+
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+
+}
+
+nav li:last-child{
+    margin-right: 0;;
+}
+
+nav a{
+    font-size: 2.5em;
+    color: #181818;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+nav li a:hover{
+    background-color: blue;
+}
+
+nav a:hover{
+    color: aqua;
+}
+
+article{
+    padding: 10px;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 75%;
+
+}
+
+aside{
+    float: right;
+    width: 20%;
+    border: 1px solid;
+    
+}
+aside p{
+    text-align: center;
+}
+aside h1{
+    text-align: center;
+}
+footer{
+    height: 100px;
+    background-color: rgb(42, 42, 56);
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+#contenedor {
+    border:   thick solid #000;
+    overflow: hidden;
+    width:    100%;
+  }
